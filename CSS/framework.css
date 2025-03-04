@@ -1,0 +1,363 @@
+:root {
+    --header-color: #e9e8e6;
+    --main-color: #34b7a7;
+    --main-alt-color: #444444;
+    --main-alt-color-two: #222222;
+    --grey-color: #888;
+    --grey-alt-color: #a09e9c;
+}
+
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-50 {
+    gap: 50px;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* End Box */
+/* Start Padding + Margin */
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+
+.m-0 {
+    margin: 0;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+.m-40 {
+    margin: 40px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+.line {
+    line-height: 1.7;
+}
+
+/* End Padding + Margin */
+/* Start Color */
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-grey {
+    color: var(--grey-color);
+}
+.c-alt-grey {
+    color: var(--grey-alt-color);
+}
+.c-main {
+    color: var(--main-color);
+}
+.c-main-alt {
+    color: var(--main-alt-color);
+}
+.c-main-alt-two {
+    color: var(--main-alt-color-two);
+}
+
+
+.bg-main {
+    background-color: var(--main-color);
+}
+.bg-header {
+    background-color: var(--header-color);
+}
+.bg-white {
+    background-color: white;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+.c-orange {
+    color: orange;
+}
+
+/* End Color */
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* End Position */
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.txt-s {
+    text-align: start;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+.fw-normal {
+    font-weight: normal;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+
+/* End Font */
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-half {
+    border-radius: 50%;
+}
+
+.b-none {
+    border: none;
+}
+
+.border-ccc {
+    border: 1px solid #ccc;
+}
+
+.border-eee {
+    border: 1px solid var(--grey-color);
+}
+
+/* End Border */
+/* Start Width + Height */
+.w-full {
+    width: 100%;
+}
+.w-half {
+    width: 50%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-40 {
+    width: 40%;
+}
+
+.w-100 {
+    width: 100px;
+}
+.w-120 {
+    width: 120px;
+}
+
+.w-96 {
+    width: 96%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+/* End Width + Height */
+/* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-shape{
+    font-size: 13px;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 40px;
+    background-color: var(--main-color);
+}
+
+/* End Components */
